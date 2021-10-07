@@ -1,10 +1,28 @@
-
 ## 5.6 Environment management: Docker
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs"><img src="images/thumbnail-5-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+
+
+## Installing Docker
+
+### Ubuntu 
+
+```bash
+sudo apt-get install docker.io
+```
+
+To run docker without `sudo`, follow [this instruction](https://docs.docker.com/engine/install/linux-postinstall/).
+
+
+### Windows
+
+Please send a PR!
+
+### MacOS
+
+Please send a PR!
 
 
 ## Notes
