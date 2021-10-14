@@ -11,8 +11,19 @@
 - 5.9 [Explore more](09-explore-more.md)
 - 5.10 [Homework](homework.md)
 
+
 ## Community notes
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05_01_deployment.md)
+* [Docker notes](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Deployment/README.md)
 * Add your notes here
+
+### Deployment tutorials
+
+* [Using PythonAnywhere to host your Python Web App for free!!! (an an alternative to AWS/Azure/Google cloud)](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-pythonanywhere.md)
+* [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
+* [Installing and using pipenv and Docker on Intel Macs](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05_02_virtenvs.md)
+* Add your tutorials here
+
