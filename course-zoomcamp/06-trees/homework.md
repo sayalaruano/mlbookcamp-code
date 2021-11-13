@@ -11,6 +11,12 @@ if you don't want to sign up to Kaggle.
 
 For this homework, we prepared a [starter notebook](homework-6-starter.ipynb). 
 
+## Solution
+
+<a href="https://www.youtube.com/watch?v=WoXSOyzcIbU"><img src="images/thumbnail-6-12.jpg"></a>
+
+[Notebook with solution](homework-6-solution.ipynb)
+
 
 ## Loading the data
 
@@ -160,7 +166,7 @@ xgb_params = {
 
 Now change `eta` first to `0.1` and then to `0.01`
 
-What's the best eta?
+Which eta leads to the best RMSE score on the validation dataset?
 
 * 0.3
 * 0.1
