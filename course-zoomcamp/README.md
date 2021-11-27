@@ -7,6 +7,7 @@
 * [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w) (you can register for the course at any point of time!)
 * [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* [Current leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQHj_Y138-aWhkPvwZFPIDl8aoJmtNjaUQ7ZaL-3BFhiuqQZgUpHY3yjbsvF_nsyF0WftTorji4ovCb/pubhtml#)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -132,23 +133,18 @@ Putting everything we've learned so far in practice!
 - 8.15 [Homework](08-deep-learning/homework.md)
 
 
-## 9. Serverless Deep Learning
+## 9. [Serverless Deep Learning](09-serverless/)
 
-- intro
-- serverless and AWS Lambda
-- tensorflow-lite
-- converting the model to TF-lite
-- preparing images
-- using the model in TF-lite
-- putting everything together in a Lambda function
-- preparing the docker image
-  - testing the image locally
-- pusting the image to ECR
-- creating the lambda function
-- creating the API gateway
-- summary
-- explore more
-- homework
+- 9.1 [Introduction to Serverless](09-serverless/01-intro.md)
+- 9.2 [AWS Lambda](09-serverless/02-aws-lambda.md)
+- 9.3 [TensorFlow Lite](09-serverless/03-tensorflow-lite.md)
+- 9.4 [Preparing the code for Lambda](09-serverless/04-preparing-code.md)
+- 9.5 [Preparing a Docker image](09-serverless/05-docker-image.md)
+- 9.6 [Creating the lambda function](09-serverless/06-creating-lambda.md)
+- 9.7 [API Gateway: exposing the lambda function](09-serverless/07-api-gateway.md)
+- 9.8 [Summary](09-serverless/08-summary.md)
+- 9.9 [Explore more](09-serverless/09-explore-more.md)
+- 9.10 [Homework](09-serverless/homework.md)
 
 ## 10. Kubernetes and TensorFlow-Serving
 
