@@ -1,6 +1,6 @@
-## 9.8 Summary
+## 10.9 Summary
 
-<a href="https://www.youtube.com/watch?v=bu3nPiHCNLU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-08.jpg"></a>
+<a href="https://www.youtube.com/watch?v=J5LMRTIu4jY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-09.jpg"></a>
 
 
 ## Notes
@@ -22,6 +22,6 @@ Add notes from the video (PRs are welcome)
 ## Nagivation
 
 * [Machine Learning Zoomcamp course](../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [API Gateway: exposing the lambda function](07-api-gateway.md)
-* Next: [Explore more](09-explore-more.md)
+* [Session 10: Kubernetes and TensorFlow Serving](./)
+* Previous: [Deploying to EKS](08-eks.md)
+* Next: [Explore more](10-explore-more.md)
