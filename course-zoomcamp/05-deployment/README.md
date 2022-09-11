@@ -16,8 +16,9 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
-* [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05_01_deployment.md)
+* [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05a_deployment.md)
 * [Docker notes](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Deployment/README.md)
+* [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week5/lecture/Lecture_5_deploying_ml_models.ipynb)
 * Add your notes here
 
 ### Deployment tutorials
@@ -25,5 +26,6 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Using PythonAnywhere to host your Python Web App for free!!! (an an alternative to AWS/Azure/Google cloud)](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-pythonanywhere.md)
 * [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
 * [Installing and using pipenv and Docker on Intel Macs](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05_02_virtenvs.md)
+* [Azure Guide](https://github.com/yusyel/azure#1-creating-azure-account)
 * Add your tutorials here
 

@@ -2,18 +2,31 @@
 
 <a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
 
+
+<p align="center">
+  <a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
+
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* [Course telegram channel](https://t.me/mlzoomcamp)
 
 
 ## Taking the course
-### 2021 Cohort
 
-We started the course in September 2021. Now it's late to join the cohort, but you can take the course in self-pased mode (see below)
+### 2022 Cohort
 
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
-* [Current leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQHj_Y138-aWhkPvwZFPIDl8aoJmtNjaUQ7ZaL-3BFhiuqQZgUpHY3yjbsvF_nsyF0WftTorji4ovCb/pubhtml#)
+We start the course again in September 2022
+
+* [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
+* Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Join the [course telegram channel](https://t.me/mlzoomcamp)
+* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+* [Tweet about it](https://ctt.ac/XZ6b9)
+* Start date: September 5
+* If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
+* All the materials specific to the 2022 will be in [the 2022 cohort folder](./cohorts/2022/) 
 
 
 ### Self-paced mode
@@ -30,11 +43,25 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
+### Pre-preqiusites
 
-### 2022 Cohort
+* Prior programming experience (at least 1+ year)
+* Being comfortable with command line 
+* No prior exposure to machine learning is required
 
-We plan to offer the course again in September 2022. If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w).
+Nice to have but not mandatory
 
+* Python (but you can learn it during the course)
+* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
+
+## Asking questions
+
+The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel.
+
+To make discussions in Slack more organized:
+
+* Follow [these recommendations](asking-questions.md) when asking for help
+* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -120,6 +147,11 @@ We plan to offer the course again in September 2022. If you'd like to be notifie
 - 5.10 [Homework](05-deployment/homework.md)
 
 
+## 5b. Bento ML
+
+More information coming soon! 
+
+
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
 - 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
@@ -189,10 +221,17 @@ Putting everything we've learned so far in practice!
 - 10.11 [Homework](10-kubernetes/homework.md)
 
 
-## 11. Kubeflow and KFServing
+## 11. [KServe](11-kserve/)
 
-- Coming soon
-- No homework
+- 11.1 [Overview](11-kserve/01-overview.md)
+- 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
+- 11.3 [Deploying a Scikit-Learn model with KServe](11-kserve/03-kserve-sklearn.md)
+- 11.4 [Deploying custom Scikit-Learn images with KServe](11-kserve/04-kserve-custom-image.md)
+- 11.5 [Serving TensorFlow models with KServe](11-kserve/05-tensorflow-kserve.md)
+- 11.6 [KServe transformers](11-kserve/06-kserve-transformers.md)
+- 11.7 [Deploying with KServe and EKS](11-kserve/07-kserve-eks.dm)
+- 11.8 [Summary](11-kserve/08-summary.md)
+- 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
 ## 12. [Capstone Project](12-capstone/)
@@ -203,6 +242,42 @@ Putting everything we've learned so far in practice one more time!
 
 Writing an article about something not covered in the course.
 
-## 14. Third project (optional)
+## 14. [Third project](14-project) (optional)
 
-- Coming soon
+For those who love projects!
+
+
+## Previous cohorts
+
+### 2021 Cohort
+
+* [Homeworks](cohorts/2021)
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
+
+
+## Our other courses
+
+If you liked this course, you'll like other courses from us:
+
+* [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
+* [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
+
+
+
+## Supporters and partners
+
+Thanks to the course sponsors for making it possible to run this course
+
+<p align="center">
+  <a href="https://www.bentoml.com/">
+    <img height="100" src="../images/bentoml.png">
+  </a>
+</p>
+
+Thanks to our friends for spreading the word about the course
+
+<p align="center">
+  <a href="https://dphi.tech/">
+    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
+  </a>
+</p>

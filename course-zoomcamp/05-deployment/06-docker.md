@@ -41,7 +41,7 @@ To get started with Docker for the churn prediction project you can follow the i
       docker run -it -p 9696:9696 churn-prediction:latest
      ```
      Here we use the option _-it_ in order to the Docker run from terminal and shows the result. 
-     The _-p_ parameter is used to map the 9696 port of the Docker to 9696 port of our machine.(first 9696 is the Docker container port and the last is port number of our  machine)
+     The _-p_ parameter is used to map the 9696 port of the Docker to 9696 port of our machine.(first 9696 is the port number of our machine and the last one is Docker container port.)
    - At last you've deployed your prediction app inside a Docker continer. Congratulations 🥳
 
 
@@ -71,7 +71,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

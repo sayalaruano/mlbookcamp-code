@@ -2,65 +2,65 @@
 
 In this section, we'll prepare the environment
 
-## Conda
 
-The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Anaconda comes with the most commonly used libraries preinstalled in the `base` environment, Miniconda is a smaller version of Anaconda that contains only Python. 
+You need:
 
-It is a good idea to set up a dedicated environment for the course (and do not use this environment for other projects)
-
-### 1. Download and install correct binary for your system
-
-Follow the instructions on page for installing the correct package for your system (the site will automatically detect your operating system and suggest the correct package)
-
-Anaconda : https://www.anaconda.com/products/individual
-
-Miniconda: https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links
-
-(If you are using Windows, you can use WSL instead and follow the installation instructions for linux)
+* Python 3.9 (note that videos use 3.8)
+* NumPy, Pandas and Scikit-Learn (latest available versions) 
+* Matplotlib and Seaborn
+* Jupyter notebooks
 
 
-### 2. Create environment for course:
-In your terminal, run this command
+## Ubuntu 22.04 on AWS
+
+* [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
+* This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
+* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
+
+
+## Anaconda and Conda
+
+The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+Anaconda comes with everything we need (and much more). 
+Miniconda is a smaller version of Anaconda that contains only Python. 
+
+Follow the instructions on page for installing the correct package for your system.
+The site will automatically detect your operating system and suggest the correct package.
+
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Miniconda](https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links)
+
+If you are using Windows, you can use WSL, but the plain Windows version should work too.
+
+Anaconda is recommended.
+
+
+### (Optional) Create environment for course
+
+It is a good idea to set up a dedicated environment for the course 
+
+In your terminal, run this command to create the environment
 
 ```bash
-conda create -n ml-zoomcamp python=3.8
+conda create -n ml-zoomcamp python=3.9
 ```
 
-### 3. Activate the enviroment
-Do this whenever you are adding new packages for the course or working on coursework
+Activate it:
 
 ```bash
 conda activate ml-zoomcamp
 ```
 
-### 4. Install libraries
-
-Installing libraries available on conda
+Installing libraries
 
 ```bash
 conda install numpy pandas scikit-learn seaborn jupyter
 ```
 
-Optionally, if you want to use tensorflow locally with a GPU:
-
-```bash
-conda config --add channels conda-forge
-conda install cudatoolkit=11.2
-```
-
-Additional libraries only available on pypi:
-
-```bash
-pip install xgboost 
-pip install tensorflow
-```
-
-## Docker
-
-If you are comfortable using docker you can use the following guide:
-
-Code: [Setup using Docker](./environment/README.md)
-
+Later in the course you will also need to install XGBoost and Tensforflow,
+but we can skip this part for now.
 
 ## Cloud
 
@@ -72,6 +72,19 @@ You can rent an instance on AWS:
 
 * [Creating an AWS account](https://mlbookcamp.com/article/aws)
 * [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
+
+
+### GCP
+
+Google cloud platform offers $300 in free credits when you sign up.
+You can use this for taking the course.
+
+
+## Notebook services
+
+There are services that allow you to host and run notebooks.
+Note that notebooks alone are not sufficient for the course and for the deployment modules
+you will need to have access to the command line interface with Docker, Python and other libraries installed.
 
 ### Kaggle
 
@@ -105,6 +118,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
    
 This way you can start with the exercise using Kaggle
 
+
 ### Google Colab
 
 To use Google Colab to open and run the Jupyter notebooks provided as part of this course do the following:
@@ -116,6 +130,7 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
 2. To open the notebook in Google Colab, in your web browser launch paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
 
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
+
 
 
 ## Navigation
